@@ -2,4 +2,6 @@
 Enables Mono to use C# 6 in Unity 5.5+.
 
 ## How to use
-Add all files in `Assets` folder to your `Assets` folder.
+Add `Assets/mcs.rsp` to your `Assets` folder.
+
+If you want to use VSTU, also add `Assets/Editor` folder.
