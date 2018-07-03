@@ -12,4 +12,4 @@ If you want to use VSTU, also add `Assets/Editor` folder. After deleting all `*.
 - Unity 5.5 does not support .NET Framework 4.5 but 3.5. Features which require .NET Framework 4.0+ cannot be used as they are (`async`, `await`, `dynamic`, and so on).
 
 ## Author
-Toru Higuruma @neofuji
+Toru Higuruma ([@neofuji](https://github.com/neofuji))
