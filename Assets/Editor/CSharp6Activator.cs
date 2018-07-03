@@ -1,8 +1,9 @@
-﻿using System.IO;
+﻿#if ENABLE_VSTU
+using System.IO;
 using System.Text;
 using System.Xml.Linq;
-using UnityEditor;
 using SyntaxTree.VisualStudio.Unity.Bridge;
+using UnityEditor;
 
 [InitializeOnLoad]
 static class CSharp6Activator
@@ -36,3 +37,4 @@ static class CSharp6Activator
         };
     }
 }
+#endif
